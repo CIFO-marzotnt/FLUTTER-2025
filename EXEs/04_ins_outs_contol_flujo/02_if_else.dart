@@ -44,7 +44,7 @@ main() {
      * 
      * stdin.readLineSync();
      * el input será leido como String
-     * no 
+     * no acepta "String?"
      * 
      * 
     */
@@ -61,7 +61,6 @@ main() {
     } else {
         stdout.writeln('Eres menor y no puedes entrar');
         }
-
     } else {
         stdout.writeln('Introduce un valor válido');
     }
