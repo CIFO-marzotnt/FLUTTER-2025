@@ -11,7 +11,7 @@ int sumar() {         // declaracion funcion int
 }
 
 int sumarConPosicion (int? numero1, int numero2) {     // funcion posicional
-  return numero1 ?? 0 + numero2;
+  return numero1 ?? 0 + numero2;                       // ?? 0 null safety
 }
 
 int sumarConNombre({required int numero1, int? numero2, required numero3}) {    // required pone el nombre (tag)
